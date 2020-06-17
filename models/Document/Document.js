@@ -24,6 +24,7 @@ class Document {
       do_objectID: '',
       assets: {
         _class: 'assetCollection',
+        colorAssets: [],
         colors: [],
         gradients: [],
         imageCollection: {

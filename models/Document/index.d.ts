@@ -1,4 +1,5 @@
 import Color from '../Color';
+import ColorAssets from '../ColorAssets';
 import Page from '../Page';
 import SharedStyle from '../SharedStyle';
 
@@ -7,6 +8,7 @@ declare class Document {
   do_objectID: string;
   assets: {
     _class: 'assetCollection';
+    colorAssets: ColorAssets[];
     colors: Color[];
     gradients: any[]; // TODO
     imageCollections: {
